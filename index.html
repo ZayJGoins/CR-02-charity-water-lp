@@ -7,6 +7,54 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Add your HTML here -->
+    {
+      font-family: "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #003366;
+    }
+    .hero-text {
+      color: #003366;
+    }
+  </style>
+</head>
+<body class="bg-white">
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center px-10 py-6 border-b border-gray-200">
+    <div class="flex items-center space-x-3">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Charity_Water_logo.svg/512px-Charity_Water_logo.svg.png" alt="Charity:Water logo" class="h-8 w-auto" />
+      <span class="text-2xl font-bold" style="color:#003366">CharityWater</span>
+    </div>
+    <ul class="flex gap-10 text-base font-medium">
+      <li><a href="#" class="hover:text-blue-600">Home</a></li>
+      <li><a href="#" class="hover:text-blue-600">About Us</a></li>
+      <li><a href="#" class="hover:text-blue-600">Donate</a></li>
+      <li><a href="#" class="hover:text-blue-600">Login</a></li>
+      <li><a href="#" class="hover:text-blue-600">Join Us</a></li>
+      <li><a href="#" class="hover:text-blue-600">Forum</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section with Background Image -->
+  <section class="hero-bg text-center py-32 px-6 relative">
+    <div class="overlay absolute inset-0"></div>
+    <div class="relative z-10">
+      <h1 class="text-5xl font-extrabold leading-tight hero-text mb-6">
+        Be the Reason<br />
+        Someone Has Clean Water –<br />
+        Even While in School!
+      </h1>
+      <p class="text-lg max-w-2xl mx-auto mb-10 hero-text">
+        Join a movement of students turning small actions into clean water for thousands.
+      </p>
+      <a href="#" class="bg-blue-600 text-white px-8 py-4 text-lg rounded-full font-semibold hover:bg-blue-700 transition">Give Today!</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 py-10 px-6 text-center text-sm">
+    <p class="mb-2">Email: <a href="mailto:info@charitywater.org" class="text-blue-600">info@charitywater.org</a></p>
+    <p class="mb-2">Phone: <a href="tel:16466882323" class="text-blue-600">1 (646) 688-2323</a></p>
+    <p>Address: 230 Franklin Rd., Ste. 11-II Franklin, TN 37064</p>
+  </footer>
 </body>
 </html>
